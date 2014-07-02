@@ -142,7 +142,7 @@ input, select, textarea {
 textarea {
 	overflow:auto;
 }
-button {=
+button {
     font-family:'Core Sans', sans-serif;
 	margin:0;
 	border:0;
@@ -155,16 +155,16 @@ button::-moz-focus-inner {
 	border:0;
 }
 ::-webkit-input-placeholder {
-	color:#939393;
+	color:#ffffff;
 }
 :-moz-placeholder {
-	color:#939393;
+	color:#ffffff;
 }
 ::-moz-placeholder {
-	color:#939393;
+	color:#ffffff;
 }
 :-ms-input-placeholder {
-	color:#939393;
+	color:#ffffff;
 }
 .wrapper {
 	position:relative;
@@ -471,6 +471,9 @@ button::-moz-focus-inner {
 .form p span {
 	display:block;
 	margin:0 0 11px;
+}
+.form p.error span {
+	color:#e60d54;
 }
 .form p input {
 	width:614px;
